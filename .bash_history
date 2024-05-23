@@ -103,3 +103,46 @@ sail stop
 sail up -d
 sail stop
 exit
+cd test-project
+sail up -d
+curl -s https://laraval.build/laravel-test | bash
+cd laravel-test
+cd ..
+cd laravel-test
+curl -s https://laraval.build/laravel-test | bash
+cd laravel-test
+curl -s https://laravel.build/laravel-test | bash
+cd laravel-test
+./vendor/bin/sail up
+cd l
+./vendor/.
+./vendor/bin/sail up
+exit
+cd laravel-test
+./vendor/bin/sail up
+w
+wsl --list --verbose
+exit
+git remote add origin git@github.com:k1mur4k/laravel.git
+git remote add origin https://github.com/k1mur4k/RepositoryForVScode.git
+git remode remove origin git@github.com:k1mur4/laravel.git
+git remote remove origin git@github.com:k1mur4/laravel.git
+git remote rm origin 
+git remote add origin https://github.com/k1mur4k/RepositoryForVScode.git
+git config ^-global user.name 'k1mur4k'
+git config --global user.name 'k1mur4k'
+git config --global user.email 'ninety.perpsycho@gmail.com'
+git branch -vv
+git branch --set-upstream-to=origin/master master
+git pull --set-upstream origin main
+git branch -vv
+$ git pull --set-upstream origin main
+ git pull --set-upstream origin main
+git branch --set-upstream-to=origin/master master
+git branch --set-upstream-to=origin/main
+git pull
+get fetch
+git fetch
+git branch --set-upstream-to=origin/main
+git branch --set-upstream-to=origin/master
+git push -u origin laravel

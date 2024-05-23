@@ -7,3 +7,5 @@
 2024-05-23 13:32:19.426 [info] [127.0.0.1][96285439][ManagementConnection] New connection established.
 2024-05-23 13:32:19.874 [info] [127.0.0.1][cbaa796a][ExtensionHostConnection] New connection established.
 2024-05-23 13:32:19.886 [info] [127.0.0.1][cbaa796a][ExtensionHostConnection] <1644> Launched Extension Host Process.
+2024-05-23 14:56:00.076 [info] [127.0.0.1][96285439][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-05-23 14:56:00.111 [info] [127.0.0.1][cbaa796a][ExtensionHostConnection] <1644> Extension Host Process exited with code: 0, signal: null.
