@@ -1,0 +1,15 @@
+2024-05-23 13:32:20.879 [info] Extension host with pid 1644 started
+2024-05-23 13:32:20.899 [info] Lock '/home/kimura/.vscode-server/data/User/workspaceStorage/b576e8015bd81410730af1b50aa655b8/vscode.lock': Lock acquired.
+2024-05-23 13:32:21.013 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-23 13:32:21.014 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-05-23 13:32:21.259 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-23 13:32:21.381 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-23 13:32:21.382 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-23 13:32:21.900 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-05-23 13:32:21.929 [info] Eager extensions activated
+2024-05-23 13:32:21.929 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-23 13:32:21.930 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-23 13:32:29.719 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1517
+2024-05-23 13:32:30.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1517
+2024-05-23 13:32:32.065 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1517
+2024-05-23 13:32:37.102 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1517

@@ -1,0 +1,17 @@
+2024-05-22 21:06:41.774 [info] 
+
+
+
+
+2024-05-22 21:06:41.805 [info] Extension host agent started.
+2024-05-22 21:06:42.263 [info] [127.0.0.1][371dc333][ManagementConnection] New connection established.
+2024-05-22 21:06:43.137 [info] [127.0.0.1][ac783ac6][ExtensionHostConnection] New connection established.
+2024-05-22 21:06:43.306 [info] [127.0.0.1][ac783ac6][ExtensionHostConnection] <514> Launched Extension Host Process.
+2024-05-22 21:07:31.042 [info] [127.0.0.1][371dc333][ManagementConnection] The client has reconnected.
+2024-05-22 21:07:31.660 [info] [127.0.0.1][ac783ac6][ExtensionHostConnection] The client has reconnected.
+2024-05-22 21:32:05.491 [info] [127.0.0.1][ac783ac6][ExtensionHostConnection] The client has reconnected.
+2024-05-22 21:32:05.901 [info] [127.0.0.1][371dc333][ManagementConnection] The client has reconnected.
+2024-05-22 22:35:17.981 [info] [127.0.0.1][ac783ac6][ExtensionHostConnection] The client has reconnected.
+2024-05-22 22:35:18.534 [info] [127.0.0.1][371dc333][ManagementConnection] The client has reconnected.
+2024-05-22 22:45:06.266 [info] [127.0.0.1][371dc333][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-05-22 22:45:06.372 [info] [127.0.0.1][ac783ac6][ExtensionHostConnection] <514> Extension Host Process exited with code: 0, signal: null.
