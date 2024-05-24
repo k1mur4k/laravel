@@ -11,12 +11,6 @@ use Illuminate\View\View;
 
 class ProfileController extends Controller
 {
-    // public function show(){
-    //     $post=Post::find();
-    //     return view('post.show', compact('show'));
-
-    // }
-
     /**
      * Display the user's profile form.
      */
