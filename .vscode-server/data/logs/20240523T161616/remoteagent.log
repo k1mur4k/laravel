@@ -20,3 +20,26 @@
 2024-05-24 10:03:37.570 [info] [127.0.0.1][7a53c2dd][ExtensionHostConnection] <52401> Launched Extension Host Process.
 2024-05-24 10:08:08.002 [info] [127.0.0.1][3f4b46c9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
 2024-05-24 10:08:08.169 [info] [127.0.0.1][7a53c2dd][ExtensionHostConnection] <52401> Extension Host Process exited with code: 0, signal: null.
+2024-05-24 10:17:49.854 [info] [127.0.0.1][25f168f3][ManagementConnection] The client has reconnected.
+2024-05-24 10:17:50.450 [info] [127.0.0.1][3b673f8c][ExtensionHostConnection] The client has reconnected.
+2024-05-24 10:22:26.244 [info] [127.0.0.1][25f168f3][ManagementConnection] The client has reconnected.
+2024-05-24 10:22:26.570 [info] [127.0.0.1][3b673f8c][ExtensionHostConnection] The client has reconnected.
+2024-05-24 11:30:30.443 [info] [127.0.0.1][3b673f8c][ExtensionHostConnection] The client has reconnected.
+2024-05-24 11:30:30.761 [info] [127.0.0.1][25f168f3][ManagementConnection] The client has reconnected.
+2024-05-24 11:54:35.149 [info] [127.0.0.1][3b673f8c][ExtensionHostConnection] The client has reconnected.
+2024-05-24 11:54:36.026 [info] [127.0.0.1][25f168f3][ManagementConnection] The client has reconnected.
+2024-05-24 12:01:44.070 [info] [127.0.0.1][3b673f8c][ExtensionHostConnection] The client has reconnected.
+2024-05-24 12:01:45.000 [info] [127.0.0.1][25f168f3][ManagementConnection] The client has reconnected.
+2024-05-24 12:02:32.988 [info] [127.0.0.1][25f168f3][ManagementConnection] The client has reconnected.
+2024-05-24 12:02:33.262 [info] [127.0.0.1][3b673f8c][ExtensionHostConnection] The client has reconnected.
+2024-05-24 12:03:38.139 [info] [127.0.0.1][25f168f3][ManagementConnection] The client has reconnected.
+2024-05-24 12:03:38.535 [info] [127.0.0.1][3b673f8c][ExtensionHostConnection] The client has reconnected.
+2024-05-24 15:03:09.550 [info] [127.0.0.1][3b673f8c][ExtensionHostConnection] The client has reconnected.
+2024-05-24 15:03:10.092 [info] [127.0.0.1][25f168f3][ManagementConnection] The client has reconnected.
+2024-05-24 16:30:42.597 [info] Getting Manifest... onecentlin.laravel-blade
+2024-05-24 16:30:42.627 [info] Installing extension: onecentlin.laravel-blade
+2024-05-24 16:30:44.523 [info] Extension signature verification result for onecentlin.laravel-blade: Success. Duration: 1303ms.
+2024-05-24 16:30:45.141 [info] Extracted extension to file:///home/kimura/.vscode-server/extensions/onecentlin.laravel-blade-1.36.1: onecentlin.laravel-blade
+2024-05-24 16:30:45.148 [info] Renamed to /home/kimura/.vscode-server/extensions/onecentlin.laravel-blade-1.36.1
+2024-05-24 16:30:45.152 [info] Extracting extension completed. onecentlin.laravel-blade
+2024-05-24 16:30:45.161 [info] Extension installed successfully: onecentlin.laravel-blade

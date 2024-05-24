@@ -2,6 +2,16 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TestController;
+use App\Http\Controllers\UserController;
+
+
+// 管理者ページのルート
+Route::get('/admin.index', [UserController::class, 'index'])
+            ->name('admin.index');
+
+Route::get('/test', [TestController::class,'test'])
+->name('test');
 
 Route::get('/', function () {
     return view('welcome');
@@ -17,4 +27,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+
 require __DIR__.'/auth.php';
+
+Route::get('/admin',[UserController::class, 'index']);
+Route::post('user/delete',[UserController::class, 'destroy']);
