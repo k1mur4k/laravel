@@ -152,3 +152,6 @@ git branch
 git checkout -b main
 git checkout main
 git push origin main
+cd test-project
+ls
+exit
