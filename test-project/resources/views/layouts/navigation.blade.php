@@ -12,6 +12,11 @@
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('welcome')" :active="request()->routeIs('welcome')">
+                        {{ __('home') }}
+                    </x-nav-link>
+                </div>
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
@@ -19,7 +24,7 @@
             </div>
             <div class="flex justify-between h-16">
                 <!-- その他のコンテンツ -->
-                <a href="{{ route('admin.index') }}" class="admin-link">管理者ページs</a>
+                <a href="{{ route('admin.index') }}" class="admin-link">管理者ページ</a>
             </div>
 
             <!-- Settings Dropdown -->
@@ -30,7 +35,7 @@
                         @auth   
                         <div>{{ Auth::user()->name}}</div>
                         @endauth
-                        <div>unko</div>
+                        <div>God</div>
 
                             <div class="ms-1">
                                 <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -87,7 +92,7 @@
                     {{ Auth::user()->name }}
                     @endauth
                     @guest
-                    unko
+                    God
                     @endguest
                 </div>
                 <div class="font-medium text-sm text-gray-500">
@@ -95,7 +100,7 @@
                     {{ Auth::user()->email }}
                     @endauth
                     @guest
-                    unko
+                    God
                     @endguest
                 </div>
             </div>

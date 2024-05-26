@@ -12,9 +12,9 @@
     <!-- ユーザー検索フォーム -->
     <form method="GET" action="{{ route('admin.index') }}">
         <!-- 検索入力フィールド -->
-        <input type="text" name="search" placeholder="Search users" value="{{ request('search') }}">
+        <input type="text" name="search" placeholder="ユーザーを探す" value="{{ request('search') }}">
         <!-- 検索ボタン -->
-        <button type="submit">Search</button>
+        <button type="submit">検索</button>
     </form>
     <!-- ユーザーリストを表示するテーブル -->
     <table>
@@ -32,15 +32,24 @@
             <td>{{ $user->name }}</td> <!-- ユーザー名 -->
             <td>{{ $user->email }}</td> <!-- ユーザーメールアドレス -->
             <td>
-                <!-- ユーザー編集リンク -->
-                <a href="{{ route('user.edit', $user->id)}}">編集</a>
-                
-                <!-- ユーザー論理削除フォーム -->
-                <form action="{{ route('user.soft-delete', $user->id) }}" method="POST">
-                    @csrf <!-- CSRF保護 -->
-                    @method('DELETE') <!-- DELETEメソッド指定 -->
-                    <button type="submit">削除</button>  
-                </form> 
+                @if ($user->deleted_at)
+                    <!-- ユーザー復元フォーム -->
+                    <form action="{{ route('user.restore', $user->id) }}" method="POST">
+                        @csrf
+                        <button type="submit">復元</button>
+                    </form>
+                @else
+                    <!-- ユーザー編集リンク -->
+                    <a href="{{ route('user.edit', $user->id)}}">編集</a>
+                    
+                    <!-- ユーザー論理削除フォーム -->
+                    <form action="{{ route('user.soft-delete', $user->id) }}" method="POST">
+                        @csrf <!-- CSRF保護 -->
+                        @method('DELETE') <!-- DELETEメソッド指定 -->
+                        <button type="submit">削除</button>  
+                    </form> 
+                @endif
+
                 <!-- ユーザー完全削除フォーム -->
                 <form action="{{route('user.delete', $user->id)}}" method="POST">
                     @csrf <!-- CSRF保護 -->

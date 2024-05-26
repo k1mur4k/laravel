@@ -16,6 +16,10 @@ Route::get('/user/{id}/edit', [ManagementUserController::class, 'edit'])
 Route::put('/user/{id}', [ManagementUserController::class, 'update'])
     ->name('user.update');
 
+//ユーザーの復元
+Route::post('/user/restore/{id}', [ManagementUserController::class, 'restore'])
+    ->name('user.restore');
+
 // ユーザーの削除
 Route::delete('/user/{id}/delete', [ManagementUserController::class, 'delete'])
             ->name('user.delete');
@@ -28,9 +32,9 @@ Route::delete('/user/{id}/soft-delete', [ManagementUserController::class, 'softD
 // Route::get('/unko', [ManagementUserController::class, 'test'])
 //             ->name('unko');
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
-});
+})->name('welcome');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

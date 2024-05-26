@@ -23,16 +23,24 @@ class ManagementUserController extends Controller
     public function delete($id) {
         $user = User::withTrashed()->findOrFail($id);
         $user->forceDelete(); // ユーザーの物理削除
-        return redirect()->route('admin.index')->with('success', 'User soft deleted successfully');
+        return redirect()->route('admin.index')->with('success', 'User deleted successfully');
     }
 
-    public function softDelete($id)
-{
-    $user = User::findOrFail($id);
-    $user->delete(); // 論理削除を行う
+    //ユーザーの論理削除メソッド
+    public function softDelete($id){
+        $user = User::findOrFail($id);
+        $user->delete();
+        return redirect()->route('admin.index')->with('success', 'User sodt deleted successfully');
+    }
 
-    return redirect()->route('admin.index')->with('success', 'User deleted successfully');
-}
+    //ユーザーの復元メソッド
+    public function restore($id){
+        $user = User::withTrashed()->findOrFail($id);
+        if ($user && $user->trashed()){
+            $user->restore();
+        }
+        return redirect()->route('admin.index')->with('success', 'User restored successfully');
+    }
 
     // public function test(){
     //     $users = User::all();
