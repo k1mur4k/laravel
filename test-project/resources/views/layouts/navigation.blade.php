@@ -18,14 +18,14 @@
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
-                        {{ __('Dashboard') }}
+                        {{ __('商品一覧画面') }}
                     </x-nav-link>
                 </div>
             </div>
-            <div class="flex justify-between h-16">
-                <!-- その他のコンテンツ -->
+            <!-- <div class="flex justify-between h-16">
+                 その他のコンテンツ
                 <a href="{{ route('admin.index') }}" class="admin-link">管理者ページ</a>
-            </div>
+            </div> -->
 
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ms-6">
@@ -35,7 +35,9 @@
                         @auth   
                         <div>{{ Auth::user()->name}}</div>
                         @endauth
+                        @guest
                         <div>God</div>
+                        @endguest
 
                             <div class="ms-1">
                                 <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
