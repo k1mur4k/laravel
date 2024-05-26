@@ -146,3 +146,9 @@ git fetch
 git branch --set-upstream-to=origin/main
 git branch --set-upstream-to=origin/master
 git push -u origin laravel
+git remote add origin https://github.com/k1mur4k/laravel.git
+git push origin master
+git branch
+git checkout -b main
+git checkout main
+git push origin main
