@@ -17,8 +17,10 @@
                     </x-nav-link>
                 </div>
             </div>
-            <!-- 管理者ページへのリンク -->
-            <a href="{{ route('admin.index') }}">管理者ページ</a>
+            <div class="flex justify-between h-16">
+                <!-- その他のコンテンツ -->
+                <a href="{{ route('admin.index') }}" class="admin-link">管理者ページs</a>
+            </div>
 
             <!-- Settings Dropdown -->
             <div class="hidden sm:flex sm:items-center sm:ms-6">
